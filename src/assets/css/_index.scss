@@ -1,11 +1,11 @@
-.sub-header{
+.sub-header {
   padding: 167px 186px;
   background: url("/assets/img/big_img.webp");
-  p{
+  p {
     padding: 0;
     margin: 0;
   }
-  p.lead{
+  p.lead {
     font-weight: 700;
     font-size: 18px;
     color: $secondary;
@@ -14,13 +14,13 @@
     text-transform: uppercase;
     margin-bottom: 8px;
   }
-  p.sub-lead{
-    font-family: 'Yeseva One';
+  p.sub-lead {
+    font-family: "Yeseva One";
     font-size: 48px;
     line-height: 55px;
-    color:$primary
+    color: $primary;
   }
-  a{
+  a {
     margin-top: 32px;
     display: block;
     background: $accent;
@@ -34,14 +34,14 @@
     padding: 13px 35px;
   }
 }
-section.goals{
+section.goals {
   position: relative;
   top: -50px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 21px;
-  a{
+  a {
     padding: 0 25px;
     background-color: $primary;
     height: 100px;
@@ -50,43 +50,18 @@ section.goals{
     justify-content: space-between;
     align-items: center;
     color: $white;
-    font-family: 'Work Sans';
+    font-family: "Work Sans";
     text-decoration: none;
     line-height: 140%;
     border-radius: 5px;
-
   }
-
 }
-section.welcome{
+section.welcome {
   text-align: center;
   margin: 61px auto 64px;
-  
-  p.firstwelcome{
+  p.welcome {
     text-align: center;
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    color: $secondary;
-    span{
-      display: block;
-      font-family: 'Yeseva One';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 32px;
-      line-height: 37px;
-      color: $primary;
-      margin-top: 8px;
-    }
-  }
-  p.secondwelcome{
-    text-align: center;
-    font-family: 'Work Sans';
+    font-family: "Work Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -96,27 +71,30 @@ section.welcome{
     width: 658px;
     margin: 8px auto 32px;
   }
-  a{
-    font-family: 'Work Sans';
+  a {
+    display: block;
+    font-family: "Work Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
     color: $secondary;
     text-decoration: none;
-
+  }
+  img {
+    margin: 61px auto 0;
   }
 }
-section.service{
- display: flex;
- flex-direction: column;
- align-items: center;
- gap: 64px;
+section.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
 
-  div{
+  div {
     display: flex;
-    
-    ul.titles{
+
+    ul.titles {
       border: 1px solid $primary02;
       border-radius: 4px;
       width: 157px;
@@ -124,12 +102,13 @@ section.service{
       display: grid;
       grid-template-rows: repeat(4, 1fr) auto;
       padding: 0;
-      li{
+      li {
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        &:last-child, &.active{
+        &:last-child,
+        &.active {
           color: $accent;
           background-color: $primary;
         }
@@ -138,13 +117,13 @@ section.service{
         }
       }
     }
-    div.content{
+    div.content {
       display: flex;
       flex-direction: column;
       width: 470px;
       margin: 0 20px;
-      h4{
-        font-family: 'Work Sans';
+      h4 {
+        font-family: "Work Sans";
         font-style: normal;
         font-weight: 500;
         font-size: 26px;
@@ -152,21 +131,21 @@ section.service{
         color: $darkblack;
         margin: 0;
       }
-      ul{
+      ul {
         list-style: none;
         display: grid;
         grid-template-columns: 212px 128px;
         grid-template-rows: repeat(3, 1fr);
         row-gap: 21px;
 
-        li{
-          font-family: 'Work Sans';
+        li {
+          font-family: "Work Sans";
           font-style: normal;
           font-weight: 400;
           font-size: 18px;
           line-height: 140%;
-          
-          &::before{
+
+          &::before {
             content: "";
             margin-right: 5px;
             display: inline-block;
@@ -178,28 +157,28 @@ section.service{
           }
         }
       }
-      p{
-        font-family: 'Work Sans';
+      p {
+        font-family: "Work Sans";
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 140%;
       }
     }
-    div.images{
+    div.images {
       display: flex;
       flex-direction: column;
-      img:first-child{
+      img:first-child {
         margin-bottom: 21px;
       }
     }
   }
 }
-section.specialties{
+section.specialties {
   text-align: center;
 
-  p{
-    font-family: 'Work Sans';
+  p {
+    font-family: "Work Sans";
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -209,9 +188,9 @@ section.specialties{
     text-transform: uppercase;
     color: $secondary;
     margin: 64px auto;
-    span{
+    span {
       display: block;
-      font-family: 'Yeseva One';
+      font-family: "Yeseva One";
       font-style: normal;
       font-weight: 400;
       font-size: 32px;
@@ -220,13 +199,13 @@ section.specialties{
       margin-top: 8px;
     }
   }
-  div.special{
+  div.special {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     width: 992px;
     margin: 0 auto;
-    a{
+    a {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -234,7 +213,7 @@ section.specialties{
       width: 248px;
       height: 142px;
       text-decoration: none;
-      font-family: 'Work Sans';
+      font-family: "Work Sans";
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -242,14 +221,14 @@ section.specialties{
       color: $black;
       border: 0.15px solid rgba(0, 0, 0, 0.19);
       box-sizing: border-box;
-      &.active{
+      &.active {
         color: $accent;
         background-color: $primary;
       }
     }
   }
 }
-section.appointment{
+section.appointment {
   display: flex;
   justify-content: center;
   background-image: url(../img/backgroundbook.png);
@@ -257,65 +236,68 @@ section.appointment{
   width: 1363px;
   margin-left: 25px;
   height: 573px;
-  div{
+  div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-right: 69px;
-    span{
-      font-family: 'Yeseva One';
+    span {
+      font-family: "Yeseva One";
       font-style: normal;
       font-weight: 400;
       font-size: 32px;
       line-height: 37px;
       color: $secondary;
     }
-    p{
-      font-family: 'Work Sans';
+    p {
+      font-family: "Work Sans";
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
-      line-height: 140%;      
-      color: $black;  
+      line-height: 140%;
+      color: $black;
       display: block;
       width: 407px;
       margin-top: 16px;
     }
   }
-  div.form-nav{
+  div.form-nav {
     width: 490px;
     border: 0;
     border-radius: 5px;
     overflow: hidden;
-    form{
+    form {
       display: grid;
-      grid-template-columns: repeat(2, 245px) ;
+      grid-template-columns: repeat(2, 245px);
       grid-template-rows: repeat(4, 50px) 190px 50px;
-      
-      input, select, textarea, button{
-        font-family: 'Work Sans';
+
+      input,
+      select,
+      textarea,
+      button {
+        font-family: "Work Sans";
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 140%;  
+        line-height: 140%;
         color: $white;
         background-color: $primary;
         padding: 15px;
         border: 1px solid white;
         border-bottom: none;
 
-        &::placeholder{
-        color: $white;
-        }            
+        &::placeholder {
+          color: $white;
+        }
       }
-      textarea{
+      textarea {
         grid-column: 1/3;
         grid-row: 5/6;
       }
-      button{
+      button {
         grid-column: 1/3;
         grid-row: 6/7;
-        font-family: 'Work Sans';
+        font-family: "Work Sans";
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -328,43 +310,21 @@ section.appointment{
     }
   }
 }
-section.doctors{
+section.doctors {
   display: flex;
   flex-direction: column;
   align-items: center;
-  >p{
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    color: $secondary;
-    margin: 64px auto;
-    span{
-      display: block;
-      font-family: 'Yeseva One';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 32px;
-      line-height: 37px;
-      color: $primary;
-      margin-top: 8px;
-    }
-  }
-  div.doc-face{
+  div.doc-face {
     display: flex;
     justify-content: center;
     gap: 21px;
-    article{
+    article {
       display: flex;
       flex-direction: column;
       background-color: $accent;
       align-items: center;
-      p{
-        font-family: 'Work Sans';
+      p {
+        font-family: "Work Sans";
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -372,8 +332,8 @@ section.doctors{
         color: $primary;
         margin: 24px auto 8px;
       }
-      span{
-        font-family: 'Work Sans';
+      span {
+        font-family: "Work Sans";
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
@@ -381,35 +341,33 @@ section.doctors{
         letter-spacing: 0.16em;
         text-transform: uppercase;
       }
-      div.social_net{
-        a{
-          svg{
-          margin: 16px 10px 24px;
-
+      div.social_net {
+        a {
+          svg {
+            margin: 16px 10px 24px;
           }
         }
       }
-      button{
+      button {
         background-color: $primary;
         width: 100%;
         padding: 12px 0;
-        a{
+        a {
           text-decoration: none;
-          font-family: 'Work Sans';
+          font-family: "Work Sans";
           font-style: normal;
           font-weight: 400;
           font-size: 16px;
           line-height: 140%;
           color: $accent;
-          
         }
       }
     }
   }
-  div.circle{
+  div.circle {
     display: flex;
     gap: 10px;
-    span{
+    span {
       display: block;
       width: 18px;
       height: 18px;
@@ -417,9 +375,86 @@ section.doctors{
       background-color: $accent;
       margin-top: 32px;
       gap: 10px;
-      &.active{
+      &.active {
         background-color: $primary;
       }
+    }
+  }
+}
+section.information {
+  div.news {
+    width: 992px;
+    margin: 64px auto 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    article {
+      display: flex;
+      span {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        p {
+          margin: 0;
+          margin-top: 20px;
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 11px;
+          line-height: 16px;
+          color: $secondary;
+        }
+        span {
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 140%;
+          color: $black;
+          margin: 8px 0 24px 0;
+        }
+      }
+    }
+  }
+}
+section.contacts {
+  div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    a {
+      width: 174px;
+      text-decoration: none;
+      background-color: $accent;
+      padding: 50px 30px;
+      p {
+        margin: 5px 0;
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        &.title-contact{
+          font-family: 'Work Sans';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 21px;
+          text-transform: uppercase;
+        }
+      }
+      &.active {
+        color: $accent;
+        background-color: $primary;
+        p {
+          color: $accent;
+          span {
+            color: $accent;
+          }
+        }
+      }
+      
     }
   }
 }
