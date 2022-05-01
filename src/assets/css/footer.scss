@@ -91,4 +91,7 @@ footer{
             
         }
     }
+    @media (max-width: $breakpoint_mobile){
+        display: none;
+    }
 }
