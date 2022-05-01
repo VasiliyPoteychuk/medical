@@ -56,13 +56,21 @@ footer{
                 }
             }
             span.top14{
-                button{
-                    background-color: transparent;
-                    border: none;
-                    svg{
-                        position: relative;
-                        top: -34px;
-                        left: 128px;
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    button{
+                        background-color: transparent;
+                        border: none;
+                        :hover{
+                            cursor: pointer;
+                        }
+                        svg{
+                            position: relative;
+                            top: -34px;
+                            left: 128px;
+
+                        }
                     }
                 }
             }

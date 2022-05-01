@@ -33,4 +33,14 @@ section{
       text-transform: uppercase;
     }
   }
+  @media(max-width: $breakpoint_mobile){
+    h3{
+      font-size: 24px;
+      line-height: 28px;
+        span{
+          font-size: 14px;
+          line-height: 16px;
+        }
+     }
+  }
 }
